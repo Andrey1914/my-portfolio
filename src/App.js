@@ -1,6 +1,7 @@
 import About from "./components/About/About";
-import Footer from "./components/Footer/Footer";
+import ParallaxComponent from "./components/Parallax/Parallax";
 import Technologies from "./components/Technologies/Technologies";
+import Footer from "./components/Footer/Footer";
 import GlobalStyles from "./components/styles/Global";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./components/styles/Theme";
@@ -13,6 +14,7 @@ function App() {
         <>
           <GlobalStyles />
           <About />
+          <ParallaxComponent />
           <Technologies />
           <Footer />
         </>
