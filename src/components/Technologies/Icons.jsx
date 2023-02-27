@@ -9,61 +9,73 @@ import git from "../../assets/technologies/git.svg";
 import gitHub from "../../assets/technologies/github.svg";
 import figma from "../../assets/technologies/figma.svg";
 import vsCode from "../../assets/technologies/visual-studio-code.svg";
+import nodeJs from "../../assets/technologies/nodejs.svg";
+import redux from "../../assets/technologies/redux.svg";
 
 export const iconsData = [
   {
     id: 1,
+    icon: vsCode,
+    name: "Visual Studio Code",
+  },
+  {
+    id: 2,
     icon: html5,
     name: "HTML5",
   },
   {
-    id: 2,
+    id: 3,
     icon: css3,
     name: "CSS3",
   },
   {
-    id: 3,
+    id: 4,
     icon: javaScript,
     name: "JavaScript",
   },
   {
-    id: 4,
+    id: 5,
     icon: reactJs,
     name: "React JS",
   },
   {
-    id: 5,
+    id: 6,
+    icon: nodeJs,
+    name: "Node JS",
+  },
+  {
+    id: 7,
+    icon: redux,
+    name: "Redux",
+  },
+  {
+    id: 8,
     icon: styledComponents,
     name: "Styled Components",
   },
   {
-    id: 6,
+    id: 9,
     icon: sass,
     name: "SASS",
   },
   {
-    id: 7,
+    id: 10,
     icon: npm,
     name: "Node Package Manager",
   },
   {
-    id: 8,
+    id: 11,
     icon: git,
     name: "Git",
   },
   {
-    id: 9,
+    id: 12,
     icon: gitHub,
     name: "GitHub",
   },
   {
-    id: 10,
+    id: 13,
     icon: figma,
     name: "Figma",
-  },
-  {
-    id: 11,
-    icon: vsCode,
-    name: "Visual Studio Code",
   },
 ];
