@@ -11,9 +11,16 @@ const GlobalStyles = createGlobalStyle`
         scroll-behavior: smooth;
     }
 
+    @font-face {
+    font-family: Montserrat;
+    src: url('../../assets/fonts/Montserrat-Regular.ttf'), format('truetype');
+    font-weight: normal;
+    }
+
     body {
         font-size: 100%;
-        font-family: ${({ theme }) => theme.fonts.montserrat};
+        
+        font-family: "Montserrat", sans-serif;
     }
 
     img {
