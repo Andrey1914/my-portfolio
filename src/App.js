@@ -1,3 +1,4 @@
+import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import ParallaxComponent from "./components/Parallax/Parallax";
 import Technologies from "./components/Technologies/Technologies";
@@ -13,6 +14,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyles />
+          <Home />
           <About />
           <ParallaxComponent />
           <Technologies />

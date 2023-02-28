@@ -1,6 +1,6 @@
 import React from "react";
 import myPhoto from "../../assets/myPhoto.jpg";
-import { BsFillCloudArrowDownFill } from "react-icons/bs";
+// import { BsFillCloudArrowDownFill } from "react-icons/bs";
 // import resume from "../../assets/Andrei_Kurka_CV.pdf";
 import {
   AboutContent,
@@ -13,10 +13,11 @@ import {
 } from "../styles/AboutStyles";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeadingStyled";
 import { StyledParagraph } from "../styles/TypographyStyled";
+import downloadIcon from "../../assets/icons/download-icon.svg";
 
 export default function About() {
   return (
-    <StyledAbout>
+    <StyledAbout id="about">
       <SectionHeading dark="true" mb="3rem">
         <SectionTitle dark="true" number="02">
           About me
@@ -43,9 +44,9 @@ export default function About() {
           </StyledParagraph>
           <Resume>
             {/* <ResumeLink href={resume} download="Andrei_Kurua_CV"> */}
-            <ResumeLink>
+            <ResumeLink icon={downloadIcon}>
               Download resume
-              <BsFillCloudArrowDownFill size={24} />
+              {/* <BsFillCloudArrowDownFill size={24} /> */}
             </ResumeLink>
           </Resume>
         </AboutDetailsContainer>
