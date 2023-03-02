@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
@@ -15,6 +16,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyles />
+          <Navbar />
           <Home />
           <Projects />
           <About />

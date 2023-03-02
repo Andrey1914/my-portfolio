@@ -145,7 +145,13 @@ export const ContactHeader = styled.p`
   }
 `;
 
+export const ContactWrapper = styled.div`
+  display: flex;
+  gap: 0.85rem;
+`;
+
 export const ContactLink = styled.a`
+  display: block;
   font-size: 1.2rem;
   letter-spacing: 1px;
   color: #8c8c8c;
@@ -268,6 +274,12 @@ export const Copyright = styled.div`
   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     padding-top: 0.85rem;
   }
+`;
+
+export const SmallContainer = styled.div`
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
 `;
 
 export const Small = styled.a``;
