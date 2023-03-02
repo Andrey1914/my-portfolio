@@ -3,6 +3,7 @@ import { animateScroll as scroll } from "react-scroll";
 import {
   ArrowToTop,
   ContactHeader,
+  ContactWrapper,
   ContactLink,
   Copyright,
   FooterArrowLine,
@@ -14,6 +15,7 @@ import {
   FooterSmallTitle,
   FooterSmallTitleWrapper,
   FooterSocials,
+  SmallContainer,
   Small,
   StyledFooter,
 } from "../styles/FooterStyled";
@@ -24,9 +26,10 @@ const toTop = () => {
 
 export default function Footer() {
   //   const year = new Date.getFullYear();
+  // const year = new Date.now();
 
   return (
-    <StyledFooter>
+    <StyledFooter id="footer">
       <FooterSmallTitleWrapper>
         <FooterSmallTitle>get in touch</FooterSmallTitle>
       </FooterSmallTitleWrapper>
@@ -42,8 +45,10 @@ export default function Footer() {
       <FooterContacts>
         <FooterContact>
           <ContactHeader>Call me</ContactHeader>
-          <ContactLink href="tel:+380676081196">+380676081196</ContactLink>
-          <ContactLink href="tel:+48573897903">+48573897903</ContactLink>
+          <ContactWrapper>
+            <ContactLink href="tel:+48573897903">+48573897903</ContactLink>
+            <ContactLink href="tel:+380676081196">+380676081196</ContactLink>
+          </ContactWrapper>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social</ContactHeader>{" "}
@@ -76,17 +81,18 @@ export default function Footer() {
       </FooterArrowLine>
 
       <Copyright>
-        <small>
+        <SmallContainer>
           {/* &copy; Copyright {year},{" "} */}
-          &copy; Copyright for Andrei Kurka, 2023{" "}
+          &copy; Copyright by{" "}
           <Small
             href="https://github.com/Andrey1914"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Andrei Kurka
+            Andrei Kurka,
           </Small>
-        </small>
+          2023
+        </SmallContainer>
       </Copyright>
     </StyledFooter>
   );

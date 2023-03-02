@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
         object-fit: cover;
     }
 
-    li {
+    ul, li {
         list-style: none;
     }
 
