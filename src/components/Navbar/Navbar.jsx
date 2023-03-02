@@ -100,7 +100,7 @@ export default function Navbar() {
         </NavList>
       </NavMenuList>
       <StyledCTA
-        href="mailto:jerichobantiquete@gmail.com "
+        href="mailto:anlikajw@gmail.com "
         target="_blank"
         rel="noreferrer"
       >
