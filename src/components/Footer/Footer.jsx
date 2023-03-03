@@ -25,8 +25,7 @@ const toTop = () => {
 };
 
 export default function Footer() {
-  //   const year = new Date.getFullYear();
-  // const year = new Date.now();
+  const year = new Date().getFullYear();
 
   return (
     <StyledFooter id="footer">
@@ -88,16 +87,14 @@ export default function Footer() {
 
       <Copyright>
         <SmallContainer>
-          {/* &copy; Copyright {year},{" "} */}
-          &copy; Copyright by{" "}
+          &copy; Copyright {year} by
           <Small
             href="https://github.com/Andrey1914"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Andrei Kurka,
+            Andrei Kurka.
           </Small>
-          2023
         </SmallContainer>
       </Copyright>
     </StyledFooter>
