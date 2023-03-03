@@ -35,7 +35,8 @@ export const ProjectsContainer = styled.div`
 export const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
+  object-fit: contain;
   position: relative;
 `;
 
@@ -50,6 +51,7 @@ export const ProjectTransitionImage = styled.img`
 
 export const ProjectDetails = styled.div`
   position: absolute;
+
   bottom: 0;
   right: 0;
   left: 0;
@@ -76,7 +78,7 @@ export const LinkName = styled.span``;
 export const ProjectCodeLink = styled.a`
   position: absolute;
   bottom: 2rem;
-  left: 9rem;
+  left: 10rem;
   color: ${({ theme }) => theme.color.light};
   font-size: 14px;
   ${Flex}
