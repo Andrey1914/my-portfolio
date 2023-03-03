@@ -31,7 +31,7 @@ export const StyledNavbar = styled.nav`
 export const NavLogo = styled.img`
   cursor: pointer;
   color: red;
-  width: 7rem;
+  width: 5.67rem;
 `;
 
 export const NavMenuList = styled.ul`
