@@ -35,7 +35,6 @@ export const ProjectsContainer = styled.div`
 export const ProjectImage = styled.img`
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
   object-fit: contain;
   position: relative;
 `;
