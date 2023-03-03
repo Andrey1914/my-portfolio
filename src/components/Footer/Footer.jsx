@@ -93,7 +93,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Andrei Kurka.
+            Andrey.
           </Small>
         </SmallContainer>
       </Copyright>

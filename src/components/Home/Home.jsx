@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
-        <Name>Andrei Kurka</Name>
+        <Name>Andrey Kurka</Name>
         <Title>Full Stack Developer</Title>
         <p>
           I <span className="change-text"></span>{" "}

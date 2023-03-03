@@ -29,7 +29,7 @@ export default function About() {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Andrei K. I am a passionate front-end developer based in
+            My name is Andrey K. I am a passionate front-end developer based in
             Ukraine.
           </StyledParagraph>
           <StyledParagraph>
