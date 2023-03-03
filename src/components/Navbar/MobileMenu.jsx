@@ -34,6 +34,9 @@ export default function MobileMenu({ isOpen, toggle }) {
           <MobileMenuLink to="about" onClick={toggle}>
             About
           </MobileMenuLink>
+          <MobileMenuLink to="footer" onClick={toggle}>
+            Contacts
+          </MobileMenuLink>
           <MobileButton
             href="mailto:anlikajw@gmail.com "
             target="_blank"
