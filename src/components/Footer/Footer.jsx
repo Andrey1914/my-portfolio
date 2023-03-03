@@ -71,7 +71,13 @@ export default function Footer() {
         </FooterContact>
         <FooterContact>
           <ContactHeader>Let's grab a coffee.</ContactHeader>
-          <ContactLink href="tel:+48573897903">anlikajw@gmail.com</ContactLink>
+          <ContactLink
+            href="mailto:anlikajw@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            anlikajw@gmail.com
+          </ContactLink>
         </FooterContact>
       </FooterContacts>
 

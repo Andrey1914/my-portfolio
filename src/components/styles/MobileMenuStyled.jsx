@@ -118,10 +118,35 @@ export const MobileSocials = styled.div`
   bottom: 2rem;
   right: 2.5rem;
   display: flex;
-  gap: 1.5rem;
+  gap: 2.5rem;
 `;
 
-export const MobileSocial = styled.a``;
+export const MobileSocial = styled.a`
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: relative;
+  color: ${({ theme }) => theme.color.light};
+  &:hover {
+    transform: translateY(-0.3125rem);
+    color: ${({ theme }) => theme.backgroundColor.orange};
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: -1rem;
+    top: 50%;
+    height: 0.5rem;
+    width: 0.5rem;
+    background: ${({ theme }) => theme.backgroundColor.orange};
+    border-radius: 2.8125rem;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  &:hover::after {
+    opacity: 1;
+  }
+`;
 
 export const MobileQuote = styled.span`
   font-family: ${({ theme }) => theme.fonts.cardo};
