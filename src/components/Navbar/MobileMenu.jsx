@@ -60,14 +60,14 @@ export default function MobileMenu({ isOpen, toggle }) {
         </MobileMenuList>
         <MobileSocials>
           <MobileSocial
-            href="mailto:jerichobantiquete@gmail.com"
+            href="mailto:anlikajw@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaEnvelope />
           </MobileSocial>
           <MobileSocial
-            href="https://github.com/monciego"
+            href="https://github.com/Andrey1914"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -75,14 +75,14 @@ export default function MobileMenu({ isOpen, toggle }) {
           </MobileSocial>
 
           <MobileSocial
-            href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+            href="https://www.linkedin.com/in/andrei-kurka/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <GrLinkedinOption />
           </MobileSocial>
         </MobileSocials>
-        <MobileQuote>work for it</MobileQuote>
+        <MobileQuote>...work for it...</MobileQuote>
       </MobileMenuContainer>
     </IconContext.Provider>
   );
