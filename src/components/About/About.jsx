@@ -1,7 +1,6 @@
 import React from "react";
 import myPhoto from "../../assets/myPhoto.jpg";
-// import { BsFillCloudArrowDownFill } from "react-icons/bs";
-// import resume from "../../assets/Andrei_Kurka_CV.pdf";
+import resume from "../../assets/resume/andrey-kurka-cv.pdf";
 import {
   AboutContent,
   AboutDetailsContainer,
@@ -29,13 +28,13 @@ export default function About() {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Andrey K. I am a passionate front-end developer based in
+            My name is Andriy K. I am a passionate full stack developer from
             Ukraine.
           </StyledParagraph>
           <StyledParagraph>
             I love to design and create responsive websites or web apps. The
             technologies, tools and languages I am using to build my projects
-            are VS Code, HTML5, CSS3, JavaScript, React.js, Node.js, Git and
+            are VSCode, HTML5, CSS3, JavaScript, React.js, Node.js, Git and
             GitHub, MaterialUI, Styled-Components and Figma.
           </StyledParagraph>
           <StyledParagraph>
@@ -43,10 +42,12 @@ export default function About() {
             forward to talk with you!
           </StyledParagraph>
           <Resume>
-            {/* <ResumeLink href={resume} download="Andrei_Kurua_CV"> */}
-            <ResumeLink icon={downloadIcon}>
-              Download resume
-              {/* <BsFillCloudArrowDownFill size={24} /> */}
+            <ResumeLink
+              href={resume}
+              icon={downloadIcon}
+              download="Andrey_Kurka_CV"
+            >
+              Download CV
             </ResumeLink>
           </Resume>
         </AboutDetailsContainer>
