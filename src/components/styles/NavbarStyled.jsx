@@ -54,7 +54,7 @@ export const StyledNavLinks = styled(NavLink)`
   transition: 0.3s ease;
   text-transform: uppercase;
   position: relative;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   &::after {
     content: "";
