@@ -26,6 +26,7 @@ const toTop = () => {
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  // const date = new Date().toISOString().slice(0, 10);
 
   return (
     <StyledFooter id="footer">
