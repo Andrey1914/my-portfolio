@@ -1,5 +1,6 @@
 import {
   barbershop,
+  phonebook,
   filmoteka,
   filmotekaTeamProject,
   iceCream,
@@ -8,6 +9,7 @@ import {
   slimMom,
   webStudio,
   webStudioPortfolio,
+  transitionPhonebook,
   transitionFilmoteka,
   transitionFilmotekaTeamProject,
   tranitionIceCream,
@@ -26,36 +28,38 @@ export const projectData = [
   },
   {
     id: 2,
-    image: filmotekaTeamProject,
-    transitionImage: transitionFilmotekaTeamProject,
-    title: "Movie search website",
-    codeLink: "https://github.com/Andrey1914/filmoteka-project",
-    liveLink: "https://indisputable09.github.io/filmoteka-project/",
-  },
-  {
-    id: 3,
     image: iceCream,
     transitionImage: tranitionIceCream,
     title: "Online ice cream sale website template",
     codeLink: "https://github.com/Andrey1914/ice-cream",
     liveLink: "https://andrey1914.github.io/ice-cream/",
   },
+
+  {
+    id: 3,
+    image: phonebook,
+    transitionImage: transitionPhonebook,
+    title: "Application for creating your own phone book",
+    codeLink: "https://github.com/Andrey1914/react-hw-08-phonebook",
+    liveLink: "https://web-phonebook.netlify.app/",
+  },
   {
     id: 4,
+    image: filmoteka,
+    transitionImage: transitionFilmoteka,
+    title: "Movie search website",
+    codeLink: "https://github.com/Andrey1914/movies",
+    liveLink: "https://video-searcher.netlify.app/",
+  },
+  {
+    id: 5,
     image: imageFinder,
     transitionImage: bigPhotoFromImageFinder,
     title: "Image search website",
     codeLink: "https://github.com/Andrey1914/goit-js-hw-11-infinite-scroll",
     liveLink: "https://andrey1914.github.io/goit-js-hw-11-infinite-scroll/",
   },
-  {
-    id: 5,
-    image: slimMom,
-    transitionImage: transitionSlimMom,
-    title: "Website for weight management and diet",
-    codeLink: "https://github.com/Andrey1914/slim-moms-frontend",
-    liveLink: "https://andriibeha.github.io/slim-moms-frontend/",
-  },
+
   {
     id: 6,
     image: webStudio,
@@ -66,10 +70,19 @@ export const projectData = [
   },
   {
     id: 7,
-    image: filmoteka,
-    transitionImage: transitionFilmoteka,
+    image: filmotekaTeamProject,
+    transitionImage: transitionFilmotekaTeamProject,
     title: "Movie search website",
-    codeLink: "https://github.com/Andrey1914/goit-react-hw-05-movies",
-    liveLink: "https://andrey1914.github.io/goit-react-hw-05-movies/",
+    codeLink: "https://github.com/Andrey1914/filmoteka-project",
+    liveLink: "https://indisputable09.github.io/filmoteka-project/",
+  },
+
+  {
+    id: 8,
+    image: slimMom,
+    transitionImage: transitionSlimMom,
+    title: "Website for weight management and diet",
+    codeLink: "https://github.com/Andrey1914/slim-moms-frontend",
+    liveLink: "https://andriibeha.github.io/slim-moms-frontend/",
   },
 ];

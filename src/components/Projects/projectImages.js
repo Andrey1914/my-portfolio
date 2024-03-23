@@ -12,9 +12,12 @@ import transitionFilmotekaTeamProject from "../../assets/projects/transition-fil
 import tranitionIceCream from "../../assets/projects/transition-ice-cream.jpg";
 import transitionSlimMom from "../../assets/projects/transition-slim-mom.jpg";
 import transitionBarbershop from "../../assets/projects/transition-barbershop.jpg";
+import phonebook from "../../assets/projects/phonebook.jpg";
+import transitionPhonebook from "../../assets/projects/transition-phonebook.jpg";
 
 export {
   barbershop,
+  phonebook,
   filmoteka,
   filmotekaTeamProject,
   iceCream,
@@ -23,6 +26,7 @@ export {
   slimMom,
   webStudio,
   webStudioPortfolio,
+  transitionPhonebook,
   transitionFilmoteka,
   transitionFilmotekaTeamProject,
   tranitionIceCream,

@@ -11,6 +11,10 @@ import figma from "../../assets/technologies/figma.svg";
 import vsCode from "../../assets/technologies/visual-studio-code.svg";
 import nodeJs from "../../assets/technologies/nodejs.svg";
 import redux from "../../assets/technologies/redux.svg";
+import mui from "../../assets/technologies/material-ui.svg";
+import next from "../../assets/technologies/nextjs.svg";
+import typeScript from "../../assets/technologies/typescript.svg";
+import graphql from "../../assets/technologies/graphql.svg";
 
 export const iconsData = [
   {
@@ -34,14 +38,29 @@ export const iconsData = [
     name: "JavaScript",
   },
   {
+    id: 16,
+    icon: typeScript,
+    name: "TypeScript",
+  },
+  {
     id: 5,
     icon: reactJs,
     name: "React JS",
   },
   {
+    id: 15,
+    icon: next,
+    name: "Next JS",
+  },
+  {
     id: 6,
     icon: nodeJs,
     name: "Node JS",
+  },
+  {
+    id: 17,
+    icon: graphql,
+    name: "GraphQL",
   },
   {
     id: 7,
@@ -55,26 +74,31 @@ export const iconsData = [
   },
   {
     id: 9,
+    icon: mui,
+    name: "Material UI",
+  },
+  {
+    id: 10,
     icon: sass,
     name: "SASS",
   },
   {
-    id: 10,
+    id: 11,
     icon: npm,
     name: "Node Package Manager",
   },
   {
-    id: 11,
+    id: 12,
     icon: git,
     name: "Git",
   },
   {
-    id: 12,
+    id: 13,
     icon: gitHub,
     name: "GitHub",
   },
   {
-    id: 13,
+    id: 14,
     icon: figma,
     name: "Figma",
   },

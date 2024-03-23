@@ -1,6 +1,6 @@
 import React from "react";
 import myPhoto from "../../assets/myPhoto.jpg";
-import resume from "../../assets/resume/andrey-kurka-cv.pdf";
+import resume from "../../assets/resume/cv_react_developer_andrei_kurka.pdf";
 import {
   AboutContent,
   AboutDetailsContainer,
